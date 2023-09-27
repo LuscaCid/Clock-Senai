@@ -24,3 +24,10 @@ setInterval(()=>{
  * git clone permite que eu tenha o url do remote ja linkado no meu projeto aonde quer que eu va, apenas dando um git clone <https://github...> la no cmd dentro da pasta que eu quero pesquisando com o cd <caminho da pasta de destino>
  */
     
+/**
+ * git pull tem como funcao retornar as alterações que foram
+ * feitas em outras maquinas ou somente por fora do meu arquivo
+ * no meu vscode para q eu tenha acesso atualizado aos ultimos 
+ * commits e pushs feitos pela minha equipe, meus colegas
+ * 
+ */
