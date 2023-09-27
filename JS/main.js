@@ -12,7 +12,7 @@ setInterval(function countdown(){
     countdown()
 },1000)
 
-
+imprimirolamundo()
 
     setInterval(()=>{
         htmlElements.hours.innerText = `${htmlElements.actualHour}`
@@ -23,5 +23,9 @@ setInterval(function countdown(){
         if(htmlElements.hours.textContent == "20")return;
     }, 1000)
 
+
+    function imprimirolamundo(){
+        console.log('olamuendo')
+    }
 
     
