@@ -19,5 +19,8 @@ setInterval(()=>{
         
 }, 1000)
 
-
+/***
+ * 
+ * git clone permite que eu tenha o url do remote ja linkado no meu projeto aonde quer que eu va, apenas dando um git clone <https://github...> la no cmd dentro da pasta que eu quero pesquisando com o cd <caminho da pasta de destino>
+ */
     
