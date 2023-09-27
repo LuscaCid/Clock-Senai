@@ -7,15 +7,15 @@ const Functions = JSfunctions({
 let x = 0;
 
 
-const seccond = document.querySelector('#seccond')
+const second = document.querySelector('#seccond')
 setInterval(()=>{
-    let datetimers = new Date()
+    let dateTimers = new Date()
     let hours = document.querySelector('#hour')
     let minute = document.querySelector('#minute')
 
-    hours.innerHTML = datetimers.getHours()
-    minute.innerHTML = datetimers.getMinutes()
-    seccond.innerHTML = datetimers.getSeconds()
+    hours.innerHTML = dateTimers.getHours()
+    minute.innerHTML = dateTimers.getMinutes()
+    second.innerHTML = dateTimers.getSeconds()
         
 }, 1000)
 
